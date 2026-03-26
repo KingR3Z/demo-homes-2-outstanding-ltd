@@ -79,13 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Rosemary Maskell", rating: 5, text: "Excellent service and always arrive when they say they will - which can't be said for all companies. I have used H2HO to replace a fence in a tricky area, complete new guttering and replacing outside taps. Prices are very reasonable and the staff hel", date: "3 months ago" },
-    { name: "Sue Whiting", rating: 5, text: "Very happy with the work to construct steps to our garden, there was a lot of earth to move but Jake and Tyler did it very quickly and very tidily. Communication was good, always asking our opinion and if we were happy with progress, they …  ", date: "8 months ago" },
-    { name: "Louise Wooller", rating: 5, text: "Thank you Jake and Tyler. They have done a fabulous job digging up our old turf ( by hand ) and laying a beautiful new one. The picket fence installed to keep the puppies off the lawn is exactly what we envisioned. They were polite and super professi", date: "5 months ago" },
-    { name: "Chris Beattie", rating: 5, text: "Lee and his team really do an outstanding job. They’ve been caring for my lawns for several years now and always do an excellent job. They treat my property with respect, always closing gates and leaving everywhere tidy and looking great. ", date: "5 months ago" },
-    { name: "georgia bowey", rating: 5, text: "Excellent service from H2O! They removed a row of trees at my business premises and did a fantastic job. The team were professional, hard-working, and left everything neat and tidy. Highly recommend. ", date: "6 months ago" },
-    { name: "T C", rating: 5, text: "What can I say!  So happy with the work carried out by the guys.  Jake, Tyler and another guy those name I forget worked incredibly hard in horrible weather.  Tyler you made me chuckle as I worked from home! Thank you all so much. ", date: "2 months ago" },
-    { name: "Chris Pouncey", rating: 5, text: "Slightly small job, re-cementing a washing line that had become uprooted I'm with the terrible recent weather. Tyler came out right on time when they said the would, dug out the old cement …  ", date: "3 months ago" },
+    { name: "Lisa Adams", rating: 5, text: "Very quick response to my initial enquiry and good communication about when to expect a visit. Very professional.", date: "a day ago" },
+    { name: "bethany sykes", rating: 5, text: "I was very pleased with the lawn care services I received recently. The team arrived promptly and worked diligently to ensure a thorough and even cut. My lawn looks beautifully maintained, enhancing the overall appearance of my property. I truly appreciate their professionalism and attention to detail. I would highly recommend their services to anyone seeking reliable and excellent grass cutting.", date: "a day ago" },
+    { name: "Matt Ward", rating: 5, text: "Great lads, friendly, quick and did exact what I asked for for.", date: "a week ago" },
+    { name: "Bill Brooks", rating: 5, text: "We had two patios and two sets of steps laid by Homes2outstanding. The work done by Jake and Tyler was carried out in a conscientious and considerate manner, nothing was too much trouble and we were consulted on any variations to the plan. No hesitation in recommending them and will use them again for any future work.", date: "3 weeks ago" },
+    { name: "T C", rating: 5, text: "What can I say!  So happy with the work carried out by the guys.  Jake, Tyler and another guy those name I forget worked incredibly hard in horrible weather.  Tyler you made me chuckle as I worked from home! Thank you all so much.", date: "2 months ago" },
+    { name: "Orissa Leow", rating: 5, text: "Thank you for braving the rain and cold and to fit me in to do yet another amazing job!", date: "Edited 2 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
