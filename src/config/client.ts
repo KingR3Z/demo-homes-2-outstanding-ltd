@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Rosemary Maskell", rating: 5, text: "Excellent service and always arrive when they say they will - which can't be said for all companies. I have used H2HO to replace a fence in a tricky area, complete new guttering and replacing outside taps. Prices are very reasonable and the staff hel", date: "3 months ago" },
+    { name: "Sue Whiting", rating: 5, text: "Very happy with the work to construct steps to our garden, there was a lot of earth to move but Jake and Tyler did it very quickly and very tidily. Communication was good, always asking our opinion and if we were happy with progress, they …  ", date: "8 months ago" },
+    { name: "Louise Wooller", rating: 5, text: "Thank you Jake and Tyler. They have done a fabulous job digging up our old turf ( by hand ) and laying a beautiful new one. The picket fence installed to keep the puppies off the lawn is exactly what we envisioned. They were polite and super professi", date: "5 months ago" },
+    { name: "Chris Beattie", rating: 5, text: "Lee and his team really do an outstanding job. They’ve been caring for my lawns for several years now and always do an excellent job. They treat my property with respect, always closing gates and leaving everywhere tidy and looking great. ", date: "5 months ago" },
+    { name: "georgia bowey", rating: 5, text: "Excellent service from H2O! They removed a row of trees at my business premises and did a fantastic job. The team were professional, hard-working, and left everything neat and tidy. Highly recommend. ", date: "6 months ago" },
+    { name: "T C", rating: 5, text: "What can I say!  So happy with the work carried out by the guys.  Jake, Tyler and another guy those name I forget worked incredibly hard in horrible weather.  Tyler you made me chuckle as I worked from home! Thank you all so much. ", date: "2 months ago" },
+    { name: "Chris Pouncey", rating: 5, text: "Slightly small job, re-cementing a washing line that had become uprooted I'm with the terrible recent weather. Tyler came out right on time when they said the would, dug out the old cement …  ", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
